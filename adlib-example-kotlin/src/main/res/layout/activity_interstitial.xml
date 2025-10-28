@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="30dp"
+    tools:context=".AdlibInterstitialActivity">
+
+    <TextView
+        android:text="Interstitial Activity"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/btn_interstitial_is_loaded"
+        android:text="Interstitial AD is Loaded"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_interstitial_load"
+        android:text="Interstitial AD Load"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_interstitial_show"
+        android:enabled="false"
+        android:text="Interstitial AD Show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

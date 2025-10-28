@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:src="@mipmap/adlib_logo_black" />
+
+    <TextView
+        android:id="@+id/adlib_version"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/init_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adlib SDK Initialize" />
+
+    <Button
+        android:id="@+id/banner_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banner Ad" />
+
+    <Button
+        android:id="@+id/interstitial_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interstital Ad" />
+
+    <Button
+        android:id="@+id/video_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Ad" />
+
+    <Button
+        android:id="@+id/native_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Native Ad" />
+
+</LinearLayout>
